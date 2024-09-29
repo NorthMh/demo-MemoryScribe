@@ -1,0 +1,30 @@
+{
+  "smart_blocks": {
+    "embed_model": {
+      "model_key": "Xenova/jina-embeddings-v2-base-zh",
+      "Xenova/jina-embeddings-v2-base-zh": {
+        "min_chars": 300,
+        "gpu_batch_size": 5
+      }
+    }
+  },
+  "smart_sources": {
+    "embed_model": {
+      "model_key": "Xenova/jina-embeddings-v2-base-zh",
+      "Xenova/jina-embeddings-v2-base-zh": {
+        "min_chars": 300,
+        "gpu_batch_size": 5
+      }
+    }
+  },
+  "file_exclusions": "Untitled",
+  "folder_exclusions": "template,.smart-connections,smart-chats",
+  "is_obsidian_vault": true,
+  "smart_notices": {
+    "muted": {
+      "embedding_complete": true,
+      "Message copied to clipboard": true
+    }
+  },
+  "smart_chats_folder": "smart-chats"
+}

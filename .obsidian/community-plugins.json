@@ -1,6 +1,22 @@
 [
+  "obsidian-pandoc",
+  "file-explorer-note-count",
+  "obsidian-minimal-settings",
+  "obsidian-mind-map",
+  "calendar",
+  "obsidian-excalidraw-plugin",
   "dataview",
-  "obsidian-kanban",
+  "obsidian-image-toolkit",
+  "remember-cursor-position",
+  "recent-files-obsidian",
+  "obsidian-paste-image-rename",
+  "oz-clear-unused-images",
+  "obsidian-file-link",
+  "smart-connections",
+  "obsidian-style-settings",
+  "various-complements",
+  "obsidian-auto-link-title",
   "quickadd",
-  "templater-obsidian"
+  "obsidian-kanban",
+  "obsidian-git"
 ]

@@ -1,0 +1,58 @@
+{
+  "env_data_dir": ".smart-env",
+  "new_user": false,
+  "legacy_transformers": false,
+  "enable_mobile": false,
+  "actions": {
+    "lookup": true
+  },
+  "system_prompts_folder": "smart prompts",
+  "smart_chat_folder": "smart-chats",
+  "smart_chat_folder_last": "smart-chats",
+  "chat_model_platform_key": "anthropic",
+  "open_router": {},
+  "api_key": "",
+  "excluded_headings": "",
+  "show_full_path": false,
+  "expanded_view": true,
+  "language": "en",
+  "version": "2.2.76",
+  "env_data_dir_last": ".smart-env",
+  "anthropic": {
+    "api_key": "",
+    "model_name": "claude-3-5-sonnet-20240620",
+    "description": "Anthropic Claude",
+    "type": "API",
+    "endpoint": "https://api.anthropic.com/v1/messages",
+    "streaming": false,
+    "api_key_header": "x-api-key",
+    "headers": {
+      "anthropic-version": "2023-06-01",
+      "anthropic-beta": "tools-2024-04-04"
+    },
+    "adapter": "Anthropic",
+    "actions": true,
+    "fetch_models": true,
+    "default_model": "claude-3-sonnet-20240229",
+    "signup_url": "https://console.anthropic.com/login?returnTo=%2Fsettings%2Fkeys",
+    "key": "claude-3-haiku-20240307",
+    "max_input_tokens": 200000,
+    "max_output_tokens": 4000,
+    "multimodal": true
+  },
+  "openai": {
+    "api_key": "",
+    "model_name": "gpt-3.5-turbo",
+    "description": "context: 16385, output: 4096",
+    "type": "API",
+    "endpoint": "https://api.openai.com/v1/chat/completions",
+    "streaming": true,
+    "actions": true,
+    "fetch_models": true,
+    "default_model": "gpt-3.5-turbo",
+    "signup_url": "https://platform.openai.com/api-keys",
+    "key": "gpt-3.5-turbo",
+    "multimodal": false,
+    "max_input_tokens": 16385
+  }
+}
